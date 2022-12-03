@@ -4,9 +4,9 @@
 .label-title {
  font-size: 40px;
  text-align: center;
- border: solid 3px  #eb6100;
+ border: solid 3px  #ffff00;
   border-radius: 6px;
-  background:  #eb6100;
+  background:  #d9ff00;
   color: #fff;
 }
  
@@ -73,7 +73,7 @@ font-size: 18px;
  width: 55px;
  display: inline-block;
  text-align: center;
- background: #eb6100;
+ background: #f1f900;
  color: #fff;
  font-size: 15px;
 }
