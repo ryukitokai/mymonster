@@ -44,6 +44,7 @@ button.btn {
 
 /*ボタンの位置調整CSS */
 .botton1{
+    font-family: "コーポレート・ロゴ（ラウンド）";
     position: absolute;
     top: 75%;
     left: 37%;
