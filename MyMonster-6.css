@@ -3,44 +3,6 @@
 }
 
 
-/*ボタン用のCSS */
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;/*rem算出をしやすくするために*/
-}
-
-/*ボタン(デザイン面）のCSS */
-.btn,
-a.btn,
-button.btn {
-  font-size: 7.5rem;
-  font-weight: 700;
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
-}
 
 /*ボタンの位置調整CSS・フォント変更*/
 .botton5{
@@ -52,45 +14,32 @@ button.btn {
 
 
 
-a.btn-flat {
-    overflow: hidden;
-  
-    padding: 1.5rem 6rem;
-  
-    color: #fff;
-    border-radius: 0;
-    background: #000;
+a.btn-tem{
+    padding: 0.5em;
+    margin: 10px 0;
+    display: block;
+    color: #fff !important;
+    background: #c5d0ca;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:30px;
+    border-radius: 3px;
+    text-align:center;
+    text-decoration:none !important;
   }
-  
-  a.btn-flat span {
-    position: relative;
-  }
-  
-  
-  a.btn-flat:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-  
-    width: 200px;
-    height: 200px;
-  
-    content: '';
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-    -webkit-transform: translateX(-80%) translateY(-25px);
-    transform: translateX(-80%) translateY(-25px);
-  
-    border-radius: 50%;
-    background: #eb6100;
-  }
-  
-  a.btn-flat:hover:before {
-    width: 600px;
-    height: 500px;
-  
-    -webkit-transform: translateX(-1%) translateY(-175px);
-  
-    transform: translateX(-1%) translateY(-175px);
 
+  a.btn-tem:hover {
+    background: #e1ff01;
   }
+  @media screen and (min-width: 768px){
+    a.btn-tem{
+      padding: 0.5em 2em;
+      margin: 10px auto;
+      font-size:50px;
+      display:inline-block;
+    }
+    a.btn-tem:before {
+      margin: -3px 10px 0 0;
+    }
+  }
+  
