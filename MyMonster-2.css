@@ -42,7 +42,7 @@ button.btn {
   border-radius: 0.5rem;
 }
 
-/*ボタンの位置調整CSS */
+/*ボタンの位置調整CSS・フォント変更*/
 .botton1{
     font-family: "コーポレート・ロゴ（ラウンド）";
     position: absolute;
