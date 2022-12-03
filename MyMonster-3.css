@@ -1,4 +1,4 @@
-.box1 {
+.box2 {
     position: relative;
 }
 
@@ -43,7 +43,7 @@ button.btn {
 }
 
 /*ボタンの位置調整CSS・フォント変更*/
-.botton1{
+.botton2{
     font-family: "コーポレート・ロゴ（ラウンド）";
     position: absolute;
     top: 75%;
