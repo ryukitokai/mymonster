@@ -4,7 +4,7 @@
 
 
 
-/*ボタンの位置調整CSS・フォント変更*/
+/*｢次へ｣ボタンの位置調整CSS・フォント変更*/
 .botton6{
     font-family: "コーポレート・ロゴ（ラウンド）";
     position: absolute;
@@ -42,3 +42,36 @@ a.btn-tem{
       margin: -3px 10px 0 0;
     }
   }
+
+
+  /*選択ボタンのＣＳＳ*/
+  .example2{
+    display: flex;
+}
+.example2 label{
+    display: block;
+    width: 150px;
+    background: #c5d0ca;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.example2 input:checked+label{
+    background: #e1ff01;
+    color: #FFF;
+}
+.example2 input{
+    display: none;
+}
+
+.example2 {
+  display:block;
+  position: absolute;
+    top: 35%;
+    left: 37%;
+}
